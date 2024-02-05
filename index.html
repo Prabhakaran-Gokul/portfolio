@@ -48,7 +48,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<img class="img-fluid" src="images/logo.png" alt="" />
+			<img class="img-fluid" src="images/logo_gokul.png" alt=""/>
 		</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -87,7 +87,7 @@
 			<h1>hello i'm Gokul Prabhakaran</h1>
 			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 			<h3 class="cd-headline clip is-full-width">
-				<span>I'm a roboticist experienced in </span>
+				<span>I'm a robotics engineer experienced in </span>
 				<span class="cd-words-wrapper">
 					<b class="is-visible" style="color: gold;">Motion-Planning</b>
 					<b style="color: gold;">Optimization/control</b>
@@ -144,9 +144,12 @@
         </div><!-- end container -->
     </div><!-- end section -->
 	
-    <div id="education" class="education lb">
+    <div id="education" class="section wb">
         <div class="container">
-
+            <div class="section-title text-left">
+                <h3>Education</h3>
+                <p>My education journey!</p>
+            </div><!-- end title -->
             <table>
                 <tr>
                     <td style="padding-bottom: 80px; padding-right: 80px; text-align:center; vertical-align: middle;">
@@ -189,6 +192,60 @@
                                 <li>- Relevant Courses: - Robot Dynamics and Control, Feedback Control Systems, Robotic System Design,
                                     Introduction to Software Engineering, Discrete Mathematics, Introduction to AI
                                 </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="work" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Work Experience</h3>
+                <p>Valuable work in the industry!</p>
+            </div><!-- end title -->
+            <table>
+                <tr>
+                    <td style="padding-bottom: 80px; padding-right: 80px; text-align:center; vertical-align: middle;">
+                        <a href="https://umich.edu/">
+                            <img src="uploads/panasonic_logo.jpg" alt="Image 1" style="width:100px; height:100px;">
+                        </a>
+                    </td>
+                    <td style="padding-bottom: 80px;">
+                        <div class="work">
+                            <h2><a href="https://research.sg.panasonic.com/">Panasonic R&D Center Singapore</a></h2>
+                            <h4>Robot Arm Manipulation Intern</h4>
+                            <h5>May 2022 - July 2022</h4>
+                            <ul>
+                                <li>- Implemented a research paper to enable UR5 robot to grasp unknown objects from 3D point cloud</li>
+                                <li>- Created a program to segment a table-top from the point-cloud data. Its pose and size were estimated and added to the Moveit! 
+                                      planning scene for collision avoidance </li>
+                                <li>- Created a custom dataset of objects and trained a Yolov5-Oriented Bounding box model. This model together with a depth 
+                                      camera was used to estimate the 3D position and the yaw angle of known objects for grasping </li>
+                                <li>- Setup a Simulation Environment of UR5 robot, Robotiq gripper and Realsense camera in Gazebo and Rviz for testing algorithms</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 80px; padding-right: 80px; text-align:center; vertical-align: middle;">
+                        <a href="https://nus.edu.sg/">
+                            <img src="uploads/artc_logo.jpg" alt="Image 2" style="width: 90%;">
+                        </a>
+                    </td>
+                    <td style="padding-bottom: 80px;">
+                        <div class="work">
+                            <h2><a href="https://www.a-star.edu.sg/artc">Advanced Remanufacturing and Technology Center (ARTC)</a></h2>
+                            <h4>Mobile Manipulator and Navigation Intern </h4>
+                            <h5>July 2020 - Nov 2020</h5>
+                            <ul>
+                                <li>- Developed a GUI to move the joints of a Fetch robot arm, using the Moveit! package. Utilized SLAM 
+                                      for mapping and navigation of the robot </li>
+                                <li>- Programmed a pick & place demo for a mobile manipulator. Generated a 3D octomap and did point cloud filtering for grasping 
+                                      objects, while avoiding collision </li>
                             </ul>
                         </div>
                     </td>
