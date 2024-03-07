@@ -973,6 +973,12 @@ xclip
     padding-bottom: 30px;
 }
 
+.center-table {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 /* Highlighted table */
 
